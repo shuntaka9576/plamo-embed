@@ -4,4 +4,15 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = ["sentencepiece", "torch", "transformers"]
+dependencies = [
+    "numpy>=2.2.4",
+    "sentencepiece",
+    "sqlite-vss>=0.1.2",
+    "torch",
+    "transformers",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.11.6",
+]
