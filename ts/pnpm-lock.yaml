@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@electric-sql/pglite':
+        specifier: ^0.3.0
+        version: 0.3.0
       '@huggingface/transformers':
         specifier: ^3.5.0
         version: 3.5.0
@@ -20,6 +23,9 @@ importers:
         version: 5.8.3
 
 packages:
+
+  '@electric-sql/pglite@0.3.0':
+    resolution: {integrity: sha512-ou1PA24kStSNpQVGdzDg1FGRzO7AQ3O6OX5FryupMdHkSfSswG2ZVXjCzzJKK88KLk+Q4QinKjZIUtmMeec5rg==}
 
   '@emnapi/runtime@1.4.3':
     resolution: {integrity: sha512-pBPWdu6MLKROBX05wSNKcNb++m5Er+KQ9QkB+WVM+pW2Kx9hoSrVTnu3BdkI5eBLZoKu/J6mW/B6i6bJB2ytXQ==}
@@ -522,6 +528,8 @@ packages:
     engines: {node: '>=18'}
 
 snapshots:
+
+  '@electric-sql/pglite@0.3.0': {}
 
   '@emnapi/runtime@1.4.3':
     dependencies:
